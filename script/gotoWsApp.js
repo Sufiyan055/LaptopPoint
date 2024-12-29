@@ -1,4 +1,4 @@
-let issue = "Problem: ";
+let issue = "Service: ";
 
 let CustomerMessage = `-------Customer Message-------`;
 
@@ -11,7 +11,7 @@ function gotoWsForLaptopRepair1() {
     "Laptop Fabrication - Structural repairs for physical damage to the laptop body.";
 
   let url =
-    "https://wa.me/917304888579?text=" +
+    "https://wa.me/919892042097?text=" +
     CustomerMessage +
     "%0a" +
     issue +
@@ -25,7 +25,7 @@ function gotoWsForLaptopRepair2() {
     "Keyboard Repair - Fixing or replacing unresponsive, damaged, or broken keys.";
 
   let url =
-    "https://wa.me/917304888579?text=" +
+    "https://wa.me/919892042097?text=" +
     CustomerMessage +
     "%0a" +
     issue +
@@ -39,7 +39,7 @@ function gotoWsForLaptopRepair3() {
     "Charging Port Repair - Fixing loose or damaged charging ports.";
 
   let url =
-    "https://wa.me/917304888579?text=" +
+    "https://wa.me/919892042097?text=" +
     CustomerMessage +
     "%0a" +
     issue +
@@ -53,7 +53,7 @@ function gotoWsForLaptopRepair4() {
     "Battery Replacement - Repair or replacement of faulty or degraded batteries.";
 
   let url =
-    "https://wa.me/917304888579?text=" +
+    "https://wa.me/919892042097?text=" +
     CustomerMessage +
     "%0a" +
     issue +
@@ -66,7 +66,7 @@ function gotoWsForLaptopRepair5() {
   let productIssue = "Hinge Repair - Repairing broken or loose laptop hinges.";
 
   let url =
-    "https://wa.me/917304888579?text=" +
+    "https://wa.me/919892042097?text=" +
     CustomerMessage +
     "%0a" +
     issue +
@@ -80,7 +80,7 @@ function gotoWsForLaptopRepair6() {
     "Speaker Repair - Fixing distorted or non-functional speakers.";
 
   let url =
-    "https://wa.me/917304888579?text=" +
+    "https://wa.me/919892042097?text=" +
     CustomerMessage +
     "%0a" +
     issue +
@@ -94,7 +94,7 @@ function gotoWsForLaptopRepair7() {
     "Cooling Fan Repair - Repairing noisy or malfunctioning fans to prevent overheating.";
 
   let url =
-    "https://wa.me/917304888579?text=" +
+    "https://wa.me/919892042097?text=" +
     CustomerMessage +
     "%0a" +
     issue +
@@ -108,7 +108,7 @@ function gotoWsForLaptopRepair8() {
             cables.`;
 
   let url =
-    "https://wa.me/917304888579?text=" +
+    "https://wa.me/919892042097?text=" +
     CustomerMessage +
     "%0a" +
     issue +
@@ -122,7 +122,7 @@ function gotoWsForLaptopRepair9() {
     "Trackpad Repair - Fixing unresponsive or malfunctioning touchpads.";
 
   let url =
-    "https://wa.me/917304888579?text=" +
+    "https://wa.me/919892042097?text=" +
     CustomerMessage +
     "%0a" +
     issue +
@@ -136,7 +136,21 @@ function gotoWsForLaptopRepair10() {
     "Screen Replacement - Repair or replacement of cracked, damaged, or flickering screens.";
 
   let url =
-    "https://wa.me/917304888579?text=" +
+    "https://wa.me/919892042097?text=" +
+    CustomerMessage +
+    "%0a" +
+    issue +
+    productIssue;
+
+  window.open(url, "_blank").focus();
+}
+
+function gotoWsForLaptopRepair11() {
+  let productIssue = `Motherboard Repair - Resolving issues with the motherboard, such as damaged circuits or
+            faulty components.`;
+
+  let url =
+    "https://wa.me/919892042097?text=" +
     CustomerMessage +
     "%0a" +
     issue +
